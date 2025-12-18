@@ -3,6 +3,38 @@
    📱 MOBILE RESPONSIVE FIX
    ========================= */
 
+   @media (max-width: 768px) {
+
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar button {
+    width: 100%;
+  }
+
+  .home-cards,
+  .tips-container,
+  .tip-container,
+  .patient-container,
+  .resource-container,
+  .achievement-container,
+  .video-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+
 @media (max-width: 768px) {
 
 /* Global */
@@ -63,7 +95,7 @@ header {
 /* Home cards */
 .home-card {
   width: 100%;
-  max-width: 320px;
+max-width: 300px;
 }
 
 /* Tips / Parent / Nurse cards */
@@ -72,14 +104,16 @@ header {
 .patient-card,
 .resource-card,
 .achievement-card {
-  width: 100%;
-  max-width: 320px;
+width: 100%;
+max-width: 300px;
+
 }
 
 /* Videos */
 .video-card {
   width: 100%;
-  max-width: 340px;
+max-width: 300px;
+
 }
 
 video {
@@ -116,21 +150,16 @@ h1 {
 }
 
   html, body {
-    height: 100%;
-    margin: 0;
+   
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     background: #fdf6f0;
-    display: flex;
-    flex-direction: column;
+    
   }
-  html, body {
-  height: 100%;
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  flex-direction: column;
-}
-
+ 
 /* Content container grows to fill space */
 .content {
   flex: 1 ; /* allow it to grow and shrink, take available space */
@@ -284,8 +313,9 @@ h1 {
     border-radius: 20px;
     margin: 15px;
     padding: 20px;
-    width: 280px;
-    display: inline-block;
+    width: 100%;
+max-width: 300px;
+    
     vertical-align: top;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -412,7 +442,8 @@ h1 {
   padding: 15px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   text-align: center;
-  width: 300px; /* card width */
+  width: 100%;
+max-width: 300px; /* card width */
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -475,11 +506,14 @@ h1 {
   justify-content: center;
   gap: 25px;
   margin-top: 30px;
+  width: 100%;
+max-width: 300px;
 }
 
 .home-card {
   background: linear-gradient(135deg, #ffd35c, #ffcc33);
-  width: 280px;
+  width: 100%;
+max-width: 300px;
   padding: 25px;
   border-radius: 20px;
   text-align: center;
@@ -524,7 +558,8 @@ h1 {
   background: rgb(255, 213, 0);
   border-radius: 20px;
   padding: 20px;
-  width: 250px;
+  width: 100%;
+max-width: 300px;
   text-align: center;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -587,7 +622,8 @@ h1 {
   background: linear-gradient(135deg, #ffe066, #ffd93d);
   border-radius: 25px;
   padding: 25px;
-  width: 260px;
+  width: 100%;
+max-width: 300px;
   text-align: center;
   cursor: pointer;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
@@ -677,7 +713,8 @@ h1 {
   background: linear-gradient(135deg, #a0e7e5, #79d7d0);
   border-radius: 20px;
   padding: 20px;
-  width: 280px;
+  width: 100%;
+max-width: 300px;
   text-align: center;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -732,18 +769,7 @@ h1 {
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* Responsive */
-@media (min-width: 600px) {
-  .tip-container {
-    gap: 20px;
-  }
-}
 
-@media (min-width: 900px) {
-  .tip-container {
-    gap: 25px;
-  }
-}
 
  /* Parent Articles Page Styling */
 #parentArticles {
@@ -855,7 +881,8 @@ h1 {
   background: linear-gradient(135deg, #90e0ef, #00b4d8);
   border-radius: 20px;
   padding: 20px;
-  width: 260px;
+ width: 100%;
+max-width: 300px;
   text-align: center;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -919,7 +946,8 @@ h1 {
   background: linear-gradient(135deg, #90e0ef, #00b4d8);
   border-radius: 20px;
   padding: 20px;
-  width: 260px;
+  width: 100%;
+  max-width: 300px;
   text-align: center;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -929,7 +957,10 @@ h1 {
   font-size: 36px;
   margin-bottom: 12px;
 }
-
+.tips-card .icon {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
 .resource-card h2 {
   font-size: 1.2em;
   color: #023e8a;
@@ -986,3 +1017,4 @@ h1 {
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
+

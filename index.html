@@ -16,7 +16,7 @@
 
 <header>Fearless Needles</header>
 
-<!-- User Selection -->
+
 <!-- User Selection -->
 <div id="userSelection" class="page active" style="text-align:center; padding:50px 20px;">
   <h1>Welcome! Who are you? 🌟</h1>
@@ -109,31 +109,31 @@
 
   <div class="tips-container">
     <div class="tips-card">
-      <img src="pare.jpg" alt="Deep Breaths">
+      <div class="icon">💆🏼‍♂️</div>
       <h2>Take Deep Breaths </h2>
       <p>Inhale slowly through your nose, hold for 3 seconds, then exhale through your mouth. Repeat 3 times to feel calm.</p>
     </div>
 
     <div class="tips-card">
-      <img src="toy.avif" alt="Hug Your Toy">
+      <div class="icon">🧸</div>
       <h2>Hug Your Favorite Toy </h2>
       <p>Hold your favorite toy close. Hugging something soft can make you feel safe and relaxed.</p>
     </div>
 
     <div class="tips-card">
-      <img src="kid.jpg" alt="Happy Place">
+      <div class="icon">🏕</div>
       <h2>Imagine a Happy Place </h2>
       <p>Close your eyes and think about a place you love. Imagine the colors, sounds, and smells to feel relaxed.</p>
     </div>
 
     <div class="tips-card">
-      <img src="help.png" alt="Blow Bubbles">
+      <div class="icon">🎈</div>
       <h2>Blow Bubbles </h2>
       <p>Blowing bubbles or pretending to blow them slowly helps your body relax and distracts from the needle.</p>
     </div>
 
     <div class="tips-card">
-      <img src="nurse videos.jpg" alt="Stretch">
+      <div class="icon">👩🏼‍⚕️</div>
       <h2>Gentle Stretching </h2>
       <p>Move your arms and legs slowly or shake your hands to release tension before the injection.</p>
     </div>
@@ -154,7 +154,7 @@
   <div class="video-container">
     <div class="video-card">
       <video controls>
-        <source src="video1.mp4" type="video/mp4">
+        <source src="video1.mp4" type="video/mp4" loading="lazy" >
         Your browser does not support the video tag.
       </video>
       <p>Cartoon Adventure 🌈</p>
@@ -162,7 +162,7 @@
 
     <div class="video-card">
       <video controls>
-        <source src="Video2.mp4" type="video/mp4">
+        <source src="Video2.mp4" type="video/mp4" loading="lazy" >
         Your browser does not support the video tag.
       </video>
       <p>Funny Animal Clips 🐶🐱</p>
@@ -170,7 +170,7 @@
 
     <div class="video-card">
       <video controls>
-        <source src="VIDEO4.mp4" type="video/mp4">
+        <source src="VIDEO4.mp4" type="video/mp4" loading="lazy" >
         Your browser does not support the video tag.
       </video>
       <p>Be Brave 🦸🏼‍♂️🦸🏼‍♀️</p>
@@ -178,7 +178,7 @@
 
     <div class="video-card">
       <video controls>
-        <source src="It Doesn't Have To Hurt.mp4" type="video/mp4">
+        <source src="It Doesn't Have To Hurt.mp4" type="video/mp4" loading="lazy" >
         Your browser does not support the video tag.
       </video>
       <p>It Doesn't Have To Hurt ✨🎨</p>
@@ -208,19 +208,19 @@
   <div class="achievement-container">
 
     <div class="achievement-card" onclick="celebrate(this)">
-      <img src="calm-removebg-preview (1).png" alt="Star Badge">
+      <img src="calm-removebg-preview (1).png" alt="Star Badge" loading="lazy" >
       <h2>⭐ Star for Staying Calm</h2>
       <p>You stayed calm during your shot. Great job!</p>
     </div>
 
-    <div class="achievement-card" onclick="celebrate(this)">
-      <img src="bravery-removebg-preview (1).png" alt="Badge">
+    <div class="achievement-card" onclick="celebrate(this)"  >
+      <img src="bravery-removebg-preview (1).png" alt="Badge" loading="lazy" >
       <h2>🎉 Badge for Bravery</h2>
       <p>You faced the needle like a hero!</p>
     </div>
 
     <div class="achievement-card" onclick="celebrate(this)">
-      <img src="brave.png" alt="Trophy">
+      <img src="brave.png" alt="Trophy" loading="lazy" >
       <h2>🏅 Trophy for Bravery</h2>
       <p>You are officially a Brave Kid!</p>
     </div>
@@ -239,19 +239,19 @@
   <h1>Parent Dashboard 👪</h1>
 
   <div class="dashboard-panel parent-panel" onclick="showParentSubPage('parentTips')">
-    <img src="tip.jpg" alt="Tips">
+    <img src="tip.jpg" alt="Tips" loading="lazy" >
     <h2>Tips 🌈</h2>
     <p>Practical advice to help your child stay calm and brave. 💖</p>
   </div>
 
   <div class="dashboard-panel parent-panel" onclick="showParentSubPage('parentVideos')">
-    <img src="vide.jpg" alt="Videos">
+    <img src="vide.jpg" alt="Videos" loading="lazy" >
     <h2>Videos 🎬</h2>
     <p>Watch helpful videos for guidance and distractions. 😄</p>
   </div>
 
   <div class="dashboard-panel parent-panel" onclick="showParentSubPage('parentArticles')">
-    <img src="article.jpg" alt="Articles">
+    <img src="article.jpg" alt="Articles" loading="lazy" >
     <h2>Articles 📄</h2>
     <p>Read informative articles about needle fear and coping strategies. 📚</p>
   </div>
@@ -264,49 +264,41 @@
 
   <div class="tip-container">
     <div class="tip-card">
-      <img src="girl.jpg" alt="Distraction" />
       <h2> Distraction Works</h2>
       <p>Bring a toy, play a game, or watch a short video to distract your child during shots. Distraction reduces anxiety and makes the procedure faster.</p>
     </div>
 
     <div class="tip-card">
-      <img src="parent.jpg" alt="Talk Calmly" />
       <h2> Talk Calmly</h2>
       <p>Explain what will happen in a gentle, reassuring voice. Avoid words like "pain" or "hurt"; instead, focus on bravery and fun rewards.</p>
     </div>
 
     <div class="tip-card">
-      <img src="pare.jpg" alt="Positive Reinforcement" />
       <h2> Positive Reinforcement</h2>
       <p>Praise bravery and offer rewards like stickers or extra playtime. Positive reinforcement encourages courage in future visits.</p>
     </div>
 
     <div class="tip-card">
-      <img src="kid.jpg" alt="Breathing Exercises" />
       <h2> Practice Breathing</h2>
       <p>Teach your child simple deep-breathing exercises or blowing bubbles. Slow breathing helps reduce anxiety and keeps them calm.</p>
     </div>
 
     <div class="tip-card">
-      <img src="doctor.jpg" alt="Comfort Items" />
       <h2> Comfort Items</h2>
       <p>Allow your child to hold a favorite toy, blanket, or stuffed animal. Familiar items provide comfort and security.</p>
     </div>
 
     <div class="tip-card">
-      <img src="need.jpg" alt="Stay Calm" />
       <h2> Stay Calm Yourself</h2>
       <p>Children pick up on your emotions. Stay relaxed and positive to help them remain calm and confident.</p>
     </div>
 
     <div class="tip-card">
-      <img src="needles.jpg" alt="Preparation" />
       <h2> Prepare in Advance</h2>
       <p>Talk about the visit beforehand and explain what will happen in simple terms. Knowing what to expect reduces fear.</p>
     </div>
 
     <div class="tip-card">
-      <img src="reward.png" alt="Reward After" />
       <h2> Reward After</h2>
       <p>Give a small treat, praise, or extra playtime after the shot. This teaches your child that bravery is recognized and celebrated.</p>
     </div>
@@ -326,33 +318,26 @@
   <div class="video-container">
     <div class="video-card">
       <video controls>
-        <source src="It Doesn't Have To Hurt.mp4" type="video/mp4">
-      </video>
-      <p>Relaxation Techniques </p>
-    </div>
-
-    <div class="video-card">
-      <video controls>
-        <source src="Needle Phobia.mp4" type="video/mp4">
+        <source src="Needle Phobia.mp4" type="video/mp4" loading="lazy">
       </video>
       <p>Needle Phobia </p>
     </div>
 <div class="video-card">
       <video controls>
-        <source src="Coping with childrens’ fear of shots.mp4" type="video/mp4">
+        <source src="Coping with childrens’ fear of shots.mp4" type="video/mp4" loading="lazy">
       </video>
       <p>Coping with childrens’ fear of shots </p>
     </div>
     <div class="video-card">
       <video controls>
-        <source src="Reduce vaccination pain in children  - Part 6_ Distraction _ Réduisez la douleur de la vaccination.mp4" type="video/mp4">
+        <source src="Reduce vaccination pain in children  - Part 6_ Distraction _ Réduisez la douleur de la vaccination.mp4" type="video/mp4" loading="lazy">
       </video>
       <p>Distraction Videos for Kids </p>
     </div>
 
     <div class="video-card">
       <video controls>
-        <source src="Addressing Needle Fear_ A Video for Parents and Caregivers (1).mp4" type="video/mp4">
+        <source src="Addressing Needle Fear_ A Video for Parents and Caregivers (1).mp4" type="video/mp4" loading="lazy">
       </video>
       <p>Parent Guidance Tips </p>
     </div>
@@ -368,9 +353,6 @@
     <li><a href="https://www.childrenscolorado.org/just-ask-childrens/articles/fear-of-shots/" target="_blank">Helping Kids Overcome a Fear of Needle Pokes</a> – Practical tips for building confidence and coping during medical visits. </li>
     <li><a href="https://health.choc.org/kids-and-the-fear-of-needles-what-parents-should-know/" target="_blank">Kids and the Fear of Needles: What Parents Should Know</a> – Expert advice & strategies to ease anxiety. </li>
     <li><a href="https://www.healthychildren.org/English/safety-prevention/immunizations/Pages/managing-your-childs-pain-while-getting-a-shot.aspx" target="_blank">Taking Fear and Pain Out of Needles—for Your Child and You</a> – How to talk about vaccinations and reduce pain/stress. </li>
-    <li><a href="https://www.aljazeera.net/women/2021/12/13/%D8%B1%D9%87%D8%A7%D8%A8-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D9%83%D9%8A%D9%81-%D8%AA%D8%B4%D8%B1%D8%AD%D9%8A%D9%86-%D9%84%D8%B7%D9%81%D9%84%D9%83-%D8%A3%D9%87%D9%85%D9%8A%D8%A9" target="_blank">رهاب الحقن.. كيف تشرحين لطفلك أهمية اللقاح؟</a> – Tips on soothing your child’s fear of injections. </li>
-    <li><a href="https://www.nidolove.com/ar/how-do-we-help-child-get-over-his-fear-needle" target="_blank">كيف نساعد الطفل في تخطي خوفه من الإبرة؟</a> – Quick practical ideas in Arabic. </li>
-    <li><a href="https://altibbi.com/ar/%D9%85%D8%B5%D8%B7%D9%84%D8%AD%D8%A7%D8%AA-%D8%B7%D8%A8%D9%8A%D8%A9/%D8%A7%D9%85%D8%B1%D8%A7%D8%B6-%D9%86%D9%81%D8%B3%D9%8A%D8%A9-%D8%B1%D9%87%D8%A7%D8%A8-%D8%A7%D9%84%D8%AA%D9%84%D9%82%D9%8A%D8%AD" target="_blank">رهاب التلقيح Vacdnophobia — أسباب، أعراض، علاج</a> – A clinical view on fear of vaccinations & injections. </li>
     <li><a href="https://www.childrens.health.qld.gov.au/about-us/news/feature-articles/how-to-support-your-child-if-theyre-nervous-about-needles" target="_blank">How to Support Your Child if They’re Nervous About Needles</a> – Step‑by‑step guide to preparation and coping. </li>
     <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7774419/" target="_blank">Fear of Injections and Needle Phobia Among Children</a> – Clinical overview of needle fear in kids and adolescents. </li>
     <li><a href="https://www.parentmap.com/article/shot-needle-phobia-parent-fuel" target="_blank">Don’t Miss Your Shot: Help Your Kids Conquer Needle Fear</a> – Real‑life tips & encouragement for parents. </li>
@@ -383,31 +365,24 @@
 
 
 
-
-
-
-
-
-
-  
 <!-- Nurse / Doctor Dashboard -->
 <div id="nursePage" class="page">
   <h1>Nurse / Doctor Dashboard 🩺</h1>
 
   <div class="dashboard-panel nurse-card" onclick="showNurseSubPage('nurseTips')">
-    <img src="idea.jpg" alt="Training Tips">
+    <img src="idea.jpg" alt="Training Tips" loading="lazy">
     <h2>Training Tips 🎥</h2>
     <p>Watch videos to learn best practices for helping children during injections.</p>
   </div>
 
   <div class="dashboard-panel nurse-card" onclick="showNurseSubPage('patientManagement')">
-    <img src="doc.jpg" alt="Patient Management">
+    <img src="doc.jpg" alt="Patient Management" loading="lazy">
     <h2>Patient Management 🧸</h2>
     <p>Learn how to handle anxiety and communicate effectively with children.</p>
   </div>
 
   <div class="dashboard-panel nurse-card" onclick="showNurseSubPage('resourceLibrary')">
-    <img src="library.jpg" alt="Resource Library">
+    <img src="needles.jpg" alt="Resource Library" loading="lazy">
     <h2>Resource Library 📚</h2>
     <p>Access guides, documents, and videos for reference and training.</p>
   </div>
@@ -419,46 +394,31 @@
   <div class="video-container">
     <div class="video-card">
       <video controls>
-        <source src="VIDEO4.mp4" type="video/mp4">
+        <source src="VIDEO4.mp4" type="video/mp4" loading="lazy">
       </video>
       <p>How to Calm a Nervous Child </p>
     </div>
 
-    <div class="video-card">
-      <video controls>
-        <source src="How to Keep Children Calm During Vaccinations.mp4" type="video/mp4">
-      </video>
-      <p>Distraction Techniques for Kids </p>
-    </div>
 <div class="video-card">
       <video controls>
-        <source src="Coping with childrens’ fear of shots.mp4" type="video/mp4">
+        <source src="Coping with childrens’ fear of shots.mp4" type="video/mp4" loading="lazy">
       </video>
       <p>Coping with childrens’ fear of shots </p>
     </div>
 
     <div class="video-card">
       <video controls>
-        <source src="Needle Phobia.mp4" type="video/mp4">
+        <source src="Needle Phobia.mp4" type="video/mp4" loading="lazy">
       </video>
       <p>Needle Phobia</p>
     </div> 
-
     <div class="video-card">
       <video controls>
-        <source src="Needle Phobia Walkthrough.mp4" type="video/mp4">
-      </video>
-      <p>Needle Phobia Walkthrough</p>
-    </div> 
-
-    <div class="video-card">
-      <video controls>
-        <source src="Reduce vaccination pain in children  - Part 6_ Distraction _ Réduisez la douleur de la vaccination.mp4" type="video/mp4">
+        <source src="Reduce vaccination pain in children  - Part 6_ Distraction _ Réduisez la douleur de la vaccination.mp4" type="video/mp4" loading="lazy">
       </video>
       <p>Positive Reinforcement Strategies </p>
     </div>
   </div>
-
   <button onclick="backToNurseDashboard()">⬅ Back</button>
 </div>
 
@@ -625,17 +585,9 @@
 
 
 
-<footer>
-  Brave Kids Training Portal | &copy; 2025 | 
-  <a href="#">Privacy Policy</a> | 
-  <a href="#">Terms</a> | 
-  <a href="#">Contact</a>
- 
-</footer>
-
 
 <audio id="applauseSound">
-  <source src="applause-236785.mp3" type="audio/mpeg">
+  <source src="applause-236785.mp3" type="audio/mpeg" loading="lazy">
 </audio>
 </body>
 </html>
